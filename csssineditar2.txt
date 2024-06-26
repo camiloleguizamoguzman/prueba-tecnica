@@ -1,0 +1,52 @@
+body {
+  background-image: url(background.png); /* Establece una imagen de fondo */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+  background-position: center; /* Centra la imagen de fondo */
+  font-family: Helvetica, Arial, sans-serif; /* Define la fuente predeterminada para el cuerpo del documento */
+  display: flex; /* Utiliza flexbox para el diseño flexible */
+  padding: 20px; /* Añade un espacio de relleno alrededor del cuerpo del documento */
+  background-color: rgb(255, 183, 0); /* Establece el color de fondo */
+}
+
+h1 {
+  font-size: 40px; /* Tamaño de fuente del título principal */
+  margin-top: 0; /* Elimina el margen superior predeterminado del título */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif; /* Define la fuente del título */
+  text-align: center; /* Centra el texto del título */
+}
+
+h2 {
+  font-size: 30px; /* Tamaño de fuente del título principal */
+  margin-top: 0; /* Elimina el margen superior predeterminado del título */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif; /* Define la fuente del título */
+  text-align: center; /* Centra el texto del título */
+}
+
+p {
+  text-align: justify; /* Justifica el texto del párrafo */
+}
+
+.consulta {
+  width: 80%; /* Ancho del contenedor de consulta */
+  background-color: rgb(255, 255, 255); /* Color de fondo del contenedor de consulta */
+  margin-left: auto; /* Centra el contenedor horizontalmente */
+  margin-right: auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Añade espacio de relleno dentro del contenedor */
+  max-width: 500px; /* Establece el ancho máximo del contenedor */
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.slotsdedisponibilidad {
+  width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor disponible */
+  margin-top: 20px; /* Espacio de margen superior para separar el contenido */
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.slot {
+  border: 1px solid #ccc; /* Establece un borde delgado alrededor del elemento */
+  padding: 10px; /* Añade espacio de relleno dentro del elemento */
+  margin: 5px; /* Espacio de margen alrededor del elemento */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el elemento */
+}

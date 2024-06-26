@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Establecer la codificación de caracteres en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configurar la vista para dispositivos móviles -->
+    <title>TongoMart - Consulta de disponibilidad</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="pantalla_consulta_estilos.css"> <!-- Enlazar el archivo CSS para los estilos -->
+</head>
+<body>
+    <div class="header">
+        <!-- Contenido opcional para el encabezado -->
+    </div>
+
+    <div class="consulta">
+        <h1>Consulta de disponibilidad</h1> <!-- Título principal de la página -->
+        <p>A continuación, podrás consultar la disponibilidad de tu producto. Por favor, ingresa los datos solicitados y haz clic en el botón "Iniciar Consulta".</p> <!-- Descripción de la consulta -->
+        <input type="text" id="valor" placeholder="Ingrese valor de pago"> <!-- Campo de entrada para ingresar el valor de pago -->
+        <button id="boton_de_consulta">Iniciar Consulta</button> <!-- Botón para iniciar la consulta de disponibilidad -->
+        <div id="slots_de_disponibilidad" class="slotsdedisponibilidad">
+            <!-- Contenedor donde se mostrarán los botones de disponibilidad -->
+        </div>
+        <div id="detalles_de_pago" class="detallesdepago">
+            <!-- Contenedor donde se mostrarán los detalles del trabajo -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- Contenido opcional para el pie de página -->
+    </div>
+
+    <script src="pantalla_consulta.js"></script> <!-- Enlazar el archivo JavaScript para la funcionalidad de la consulta -->
+</body>
+</html>
